@@ -1,0 +1,10 @@
+# OpenCV 用于视频采集与图像绘制
+opencv-python>=4.8.0,<5.0
+
+# MediaPipe Hands 用于手部 21 关键点检测
+# 注意:0.10.30 之后官方移除了 mediapipe.solutions API,
+#      demo5.py 使用的是旧版 solutions API,需固定到 0.10.x 系列。
+mediapipe==0.10.21
+
+# 数值计算(用于 math.hypot 等;MediaPipe 也会依赖 numpy)
+numpy>=1.23.0
